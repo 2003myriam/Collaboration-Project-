@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Page1 from './Pages/Page1'
+import Page2 from './Pages/Page2'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Page1/>}/>
-        <Route path='/page2' element={<h1>cd</h1>}/>
+        <Route path='/page2' element={<Page2/>}/>
       </Routes>
     </>
   )
